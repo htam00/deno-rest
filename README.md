@@ -1,5 +1,4 @@
-# Restful API with Deno
-
+# Deno RestAPI
 Olá Devs, iremos criar um REST API simples em deno.
 Antes começarmos, sabia que o deno por default, usa typescript, então se voçê não conhece ou não está muito familiarizado com o typescript aconselho estudar, e entender como o ele trabalha, para você não ficar perdido. Mais caso você já conheça e se sente confortavel em devolver com  typescript então vamos seguir.
 
