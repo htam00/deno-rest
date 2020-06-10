@@ -88,3 +88,11 @@ export const updateProduct = async({ params, request, response}: { params: { id:
         }
     }
 }
+
+export const deleteProduct = async({params, response}: { params: { id: string }, response: any }) => {
+    products = products.filter(p => p.id !== params.id)
+    response.body = {
+        success: true,
+        msg: "Product removed"
+    } 
+}
